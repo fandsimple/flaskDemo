@@ -15,7 +15,7 @@ class Config:
 
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:102487aa@127.0.0.1:3306/firstApp'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:102487@127.0.0.1:3306/test'
     DEBUG = True
     TESTING = False
 
